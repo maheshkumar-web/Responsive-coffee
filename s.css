@@ -1,0 +1,375 @@
+* {
+
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+/* ===coffee name=== */
+.navbar {
+
+    background-color: rgb(0, 0, 0);
+    padding: 20px !important;
+    padding-left: 60px !important;
+    padding-right: 90px !important;
+
+}
+
+body>header>nav>div>h2 {
+    color: rgb(203, 191, 182);
+
+    font-weight: 900;
+    margin-left: 80px;
+    padding-top: 10px;
+    font-size: 4ch;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: white;
+    padding-left: 30px;
+    border-radius: 3px;
+    size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2ch;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: rgb(208, 185, 167);
+    transition: 1s;
+}
+
+#navbarSupportedContent>button {
+    font-weight: 800;
+    width: 190px;
+    background-color: rgb(150, 114, 89);
+    color: rgb(0, 0, 0);
+}
+
+body>header>nav>div>button {
+    background-color: antiquewhite !important;
+}
+
+#navbarSupportedContent>button:hover {
+    color: rgb(208, 185, 167);
+    transform: scale(1.12);
+    transition: 1s;
+}
+
+/* HOME====== START */
+#Home>div>h1 {
+
+    font-size: 80px;
+    font-style: oblique;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+#Home>div>p {
+    font-weight: bolder;
+    font-size: 170%;
+    color: white;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+#btn {
+    width: 290px;
+    height: 60px;
+    border-radius: 90px;
+    margin-top: 17px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(208, 185, 167);
+    margin-left: 40px;
+
+}
+
+#btn:hover {
+    transform: scale(1.12);
+    transition: 1s;
+    background-color: rgb(150, 114, 89);
+    color: blanchedalmond;
+}
+
+.content {
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/backgorund.jpeg);
+}
+
+/* HOME===END */
+/* xx CARDS START xx */
+.pop {
+    text-align: center;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+}
+
+body {
+    background-color: rgb(150, 114, 89) !important;
+}
+
+/* xxx main cards xxx */
+body>div>div>div:nth-child(1)>div {
+    border-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    background-color: rgb(208, 185, 167);
+    height: 98%;
+}
+
+body>div>div>div:nth-child(2)>div {
+    border-color: black;
+    margin-top: 20px;
+    background-color: rgb(208, 185, 167);
+    height: 98%;
+}
+
+body>div>div>div:nth-child(3)>div {
+    border-color: black;
+    margin-top: 20px;
+    height: 98%;
+    background-color: rgb(208, 185, 167);
+
+}
+
+body>div>div>div:nth-child(4)>div {
+    border-color: black;
+    margin-top: 20px;
+    background-color: rgb(208, 185, 167);
+    height: 98%;
+
+}
+
+body>div>div>div:nth-child(5)>div {
+    border-color: black;
+    margin-top: 20px;
+    background-color: rgb(208, 185, 167);
+    height: 98%;
+
+}
+
+body>div>div>div:nth-child(6)>div {
+    border-color: black;
+    margin-top: 20px;
+    height: 98%;
+    background-color: rgb(208, 185, 167);
+}
+
+/* xxxxx */
+body>div>div>div:nth-child(6)>div:hover {
+    transition: 2s all;
+    transform: scale(1.11);
+}
+
+body>div>div>div:nth-child(5)>div:hover {
+    transition: 2s all;
+    transform: scale(1.11);
+}
+
+body>div>div>div:nth-child(4)>div:hover {
+    transition: 2s all;
+    transform: scale(1.11);
+}
+
+body>div>div>div:nth-child(3)>div:hover {
+    transition: 2s all;
+    transform: scale(1.11);
+}
+
+body>div>div>div:nth-child(2)>div:hover {
+    transition: 2s all;
+    transform: scale(1.11);
+}
+
+body>div>div>div:nth-child(1)>div:hover {
+    transition: 2s all;
+    transform: scale(1.11);
+}
+
+/* xx CARDS H2 EDIT XX*/
+body>div>div>div:nth-child(1)>div>div>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-style: oblique;
+}
+
+body>div>div>div:nth-child(2)>div>div>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-style: oblique;
+}
+
+body>div>div>div:nth-child(3)>div>div>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-style: oblique;
+}
+
+body>div>div>div:nth-child(4)>div>div>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-style: oblique;
+}
+
+body>div>div>div:nth-child(5)>div>div>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-style: oblique;
+}
+
+body>div>div>div:nth-child(6)>div>div>h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-style: oblique;
+}
+
+/* xxx cards order edit xxx */
+body>div>div>div:nth-child(1)>div>div>a {
+    background-color: rgb(150, 114, 89);
+    border-color: black;
+    width: 40%;
+    border-radius: 9px;
+}
+
+body>div>div>div:nth-child(2)>div>div>a {
+    background-color: rgb(150, 114, 89);
+    border-color: black;
+    width: 40%;
+    border-radius: 9px;
+}
+
+body>div>div>div:nth-child(3)>div>div>a {
+    background-color: rgb(150, 114, 89);
+    border-color: black;
+    width: 40%;
+    margin-top: 45%;
+    border-radius: 9px;
+}
+
+body>div>div>div:nth-child(4)>div>div>a {
+    background-color: rgb(150, 114, 89);
+    border-color: black;
+    width: 40%;
+    margin-top: 40%;
+    border-radius: 9px;
+}
+
+body>div>div>div:nth-child(5)>div>div>a {
+    background-color: rgb(150, 114, 89);
+    border-color: black;
+    width: 40%;
+    margin-top: 45%;
+    border-radius: 9px;
+}
+
+body>div>div>div:nth-child(6)>div>div>a {
+    background-color: rgb(150, 114, 89);
+    border-color: black;
+    width: 40%;
+
+    border-radius: 9px;
+}
+
+/* XXXX   */
+body>div>div>div:nth-child(6)>div>div>a:hover {
+    transform: scale(1.11);
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(59, 38, 22);
+}
+
+body>div>div>div:nth-child(5)>div>div>a:hover {
+    transform: scale(1.11);
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(59, 38, 22);
+}
+
+body>div>div>div:nth-child(4)>div>div>a:hover {
+    transform: scale(1.11);
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(59, 38, 22);
+}
+
+body>div>div>div:nth-child(3)>div>div>a:hover {
+    transform: scale(1.11);
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(59, 38, 22);
+}
+
+body>div>div>div:nth-child(2)>div>div>a:hover {
+    transform: scale(1.11);
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(59, 38, 22);
+}
+
+body>div>div>div:nth-child(1)>div>div>a:hover {
+    transform: scale(1.11);
+    transition: 1s;
+    border-color: black;
+    background-color: rgb(59, 38, 22);
+}
+
+span {
+    color: rgb(103, 76, 30);
+}
+
+body>section.head>div:nth-child(2)>img {
+    width: 60%;
+}
+
+body>section.container.py-5>form>div>div.col-12.text-center>button {
+    background-color: rgb(86, 55, 32);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+body>section.container.py-5>form>div>div.col-12.text-center>button:hover {
+    transition: 1s;
+    background-color: rgb(208, 185, 167);
+    color: black;
+}
+
+.about {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 31.2em;
+    overflow: hidden;
+}
+body>section.head>div.heading {
+    justify-content: center;
+    padding-top: 11%;
+    margin-bottom: auto;
+
+}
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.footer {
+    background-color: black;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    padding-top: 40;
+}
